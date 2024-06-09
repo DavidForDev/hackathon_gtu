@@ -1,0 +1,186 @@
+{
+  "courses": [
+    {
+      "course_id": 2,
+      "title": "SQL Insertion Course",
+      "questions": [
+        {
+          "question": "What statement allows you to add new records to a database table?",
+          "options": ["UPDATE", "SELECT", "INSERT", "DELETE"],
+          "correct_answer": {
+            "answer": "INSERT",
+            "score": 10
+          }
+        },
+        {
+          "question": "Which SQL keyword is used to add multiple records with a single INSERT statement?",
+          "options": ["INTO", "VALUES", "ADD", "MULTIINSERT"],
+          "correct_answer": {
+            "answer": "VALUES",
+            "score": 10
+          }
+        },
+        {
+          "question": "What type of constraints can prevent insertion of duplicate records in a table?",
+          "options": [
+            "Primary Key Constraint",
+            "Unique Constraint",
+            "Foreign Key Constraint",
+            "Check Constraint"
+          ],
+          "correct_answer": {
+            "answer": "Unique Constraint",
+            "score": 10
+          }
+        },
+        {
+          "question": "Which of the following is NOT a valid data type for insertion in SQL?",
+          "options": ["Integer", "Text", "Boolean", "Date-Time"],
+          "correct_answer": {
+            "answer": "Boolean",
+            "score": 10
+          }
+        }
+      ]
+    },
+    {
+      "course_id": 4,
+      "title": "SQL Deletion Course",
+      "questions": [
+        {
+          "question": "Which statement is used to remove records from a database table?",
+          "options": ["SELECT", "INSERT", "DELETE", "UPDATE"],
+          "correct_answer": {
+            "answer": "DELETE",
+            "score": 10
+          }
+        },
+        {
+          "question": "What happens if you omit the WHERE clause in a DELETE statement?",
+          "options": [
+            "All records will be deleted",
+            "No records will be deleted",
+            "An error will occur",
+            "Only the first record will be deleted"
+          ],
+          "correct_answer": {
+            "answer": "All records will be deleted",
+            "score": 10
+          }
+        },
+        {
+          "question": "Which SQL keyword is used to specify conditions for deleting records?",
+          "options": ["WHERE", "HAVING", "FILTER", "CONDITION"],
+          "correct_answer": {
+            "answer": "WHERE",
+            "score": 10
+          }
+        },
+        {
+          "question": "What is the default behavior of a DELETE statement when it encounters a foreign key constraint?",
+          "options": [
+            "It deletes the child records automatically",
+            "It throws an error",
+            "It deletes the parent record",
+            "It updates the foreign key value to NULL"
+          ],
+          "correct_answer": {
+            "answer": "It throws an error",
+            "score": 10
+          }
+        }
+      ]
+    },
+    {
+      "course_id": 3,
+      "title": "SQL Update Course",
+      "questions": [
+        {
+          "question": "What statement is used to modify existing records in a database table?",
+          "options": ["DELETE", "UPDATE", "INSERT", "SELECT"],
+          "correct_answer": {
+            "answer": "UPDATE",
+            "score": 10
+          }
+        },
+        {
+          "question": "Which SQL keyword is used to specify the columns to be updated in an UPDATE statement?",
+          "options": ["SET", "CHANGE", "MODIFY", "ALTER"],
+          "correct_answer": {
+            "answer": "SET",
+            "score": 10
+          }
+        },
+        {
+          "question": "What happens if you omit the WHERE clause in an UPDATE statement?",
+          "options": [
+            "All records will be updated",
+            "No records will be updated",
+            "An error will occur",
+            "Only the first record will be updated"
+          ],
+          "correct_answer": {
+            "answer": "All records will be updated",
+            "score": 10
+          }
+        },
+        {
+          "question": "Which of the following is NOT a valid way to update data in SQL?",
+          "options": [
+            "Using JOIN",
+            "Using GROUP BY",
+            "Using subqueries",
+            "Using UPDATE"
+          ],
+          "correct_answer": {
+            "answer": "Using GROUP BY",
+            "score": 10
+          }
+        }
+      ]
+    },
+    {
+      "course_id": 1,
+      "title": "SQL Selector Course",
+      "questions": [
+        {
+          "question": "Which statement is used to retrieve data from one or more tables in a database?",
+          "options": ["UPDATE", "INSERT", "SELECT", "DELETE"],
+          "correct_answer": {
+            "answer": "SELECT",
+            "score": 10
+          }
+        },
+        {
+          "question": "Which SQL keyword is used to filter data in a SELECT statement?",
+          "options": ["FILTER", "HAVING", "WHERE", "CONDITION"],
+          "correct_answer": {
+            "answer": "WHERE",
+            "score": 10
+          }
+        },
+        {
+          "question": "Which SQL keyword is used to sort the results of a SELECT statement?",
+          "options": ["ORDER", "SORT", "GROUP BY", "ORDER BY"],
+          "correct_answer": {
+            "answer": "ORDER BY",
+            "score": 10
+          }
+        },
+        {
+          "question": "What does the DISTINCT keyword do in a SELECT statement?",
+          "options": [
+            "It removes duplicate rows from the result set",
+            "It selects only unique values from the specified column",
+            "It groups the result set by the specified column",
+            "It selects the first occurrence of each value from the specified column"
+          ],
+          "correct_answer": {
+            "answer": "It removes duplicate rows from the result set",
+            "score": 10
+          }
+        }
+      ]
+    }
+  ]
+}
